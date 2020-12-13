@@ -1,0 +1,43 @@
+[
+  {
+    "addressType": "Type1",
+    "addressInfo": "Sofia",
+    "people": "1"
+  },
+  {
+    "addressType": "Type1",
+    "addressInfo": "Gorna Oryahovica",
+    "people": "3"
+  },
+  {
+    "addressType": "Type1",
+    "addressInfo": "Plovdiv",
+    "people": "8"
+  },
+  {
+    "addressType": "Type2",
+    "addressInfo": "Kaspichan",
+    "people": "8"
+  },
+  {
+    "addressType": "Type1",
+    "addressInfo": "Sofia",
+    "people": "9"
+  },
+  {
+    "addressType": "Type2",
+    "addressInfo": "Varna",
+    "people": "11"
+  },
+  {
+    "addressType": "Type1",
+    "addressInfo": "Burgas",
+    "people": "3"
+  },
+  {
+    "addressType": "Type1",
+    "addressInfo": "Veliko Turnovo",
+    "people": "7"
+  }
+]
+

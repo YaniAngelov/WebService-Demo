@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html
+        lang="en" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="~{fragments/head}"></th:block>
+</head>
+<body>
+<header>
+    <th:block th:include="~{fragments/header}"></th:block>
+</header>
+<main>
+    <h1 class="text-center">All Users</h1>
+    <hr class="hr-3"/>
+    <div th:each="user : ${users}" th:object="${user}" class="container">
+        <hr class="my-3"/>
+        <span class="h4"
+              th:text="|Name: ${user.fullName}  ---  ---  ---  Pin Code: ${user.pin}|">Full Name and Pin Code</span>
+        <a th:text="|Delete|" th:href="@{/users/delete/{id}(id = *{id})}" class="btn btn-red"
+           style="float: right;">...</a>
+        <a th:text="|Update|" th:href="@{/users/update/{id}(id = *{id})}" class="btn btn-blue" style="float: right;">...</a>
+        <hr class="my-3"/>
+    </div>
+
+    <hr class="my-3"/>
+    <hr class="my-3"/>
+</main>
+<footer class="footer bg-dark  py-2">
+    <th:block th:include="~{fragments/footer}"></th:block>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "emailType": "Type1",
+    "email": "yani@abv.bg",
+    "people": "1"
+  },
+  {
+    "emailType": "Type2",
+    "email": "misho@abv.bg",
+    "people": "2"
+  },
+  {
+    "emailType": "Type3",
+    "email": "pesho@abv.bg",
+    "people": "4"
+  },
+  {
+    "emailType": "Type1",
+    "email": "matio_83@gmail.bg",
+    "people": "8"
+  },
+  {
+    "emailType": "Type5",
+    "email": "bibi@abv.bg",
+    "people": "11"
+  },
+  {
+    "emailType": "Type1",
+    "email": "bibi@gmail.bg",
+    "people": "11"
+  },
+  {
+    "emailType": "Type2",
+    "email": "matio@abv.bg",
+    "people": "7"
+  },
+  {
+    "emailType": "Type2",
+    "email": "stoyan_65@abv.bg",
+    "people": "6"
+  }
+]

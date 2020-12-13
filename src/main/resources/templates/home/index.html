@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html
+        lang="en" xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="~{fragments/head}"></th:block>
+</head>
+<body>
+<header>
+    <th:block th:include="~{fragments/header}"></th:block>
+</header>
+<main>
+    <div class="container">
+        <h1>Welcome to Web Service</h1>
+        <hr class="my-3"/>
+        <h3><a href="/users/find">Find User</a> if you look for somebody or
+            <a href="/users/create">Create User</a> if the user not exist.
+        </h3>
+        <hr class="my-3"/>
+        <h3>Click here if you want to Update or Delete user <a href="/users/showAll">All Users</a>
+        </h3>
+    </div>
+</main>
+<footer class="footer bg-dark  py-2">
+    <th:block th:include="~{fragments/footer}"></th:block>
+</footer>
+</body>
+</html>
