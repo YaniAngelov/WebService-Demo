@@ -1,7 +1,10 @@
 package demo.services.models;
 
+import demo.constants.GlobalConstants;
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 public class UserValidationServiceModel {
@@ -17,6 +20,7 @@ public class UserValidationServiceModel {
     }
 
     @NotNull
+    @Pattern(regexp = GlobalConstants.NAME_VALIDATE_REGEX)
     @Size(min = 1, max = 90, message = "The field should`t be empty or more 90 characters")
     public String getFullName() {
         return fullName;
@@ -27,6 +31,7 @@ public class UserValidationServiceModel {
     }
 
     @Size(min = 10, max = 10, message = "The field should be exactly 10 digits")
+    @Pattern(regexp = GlobalConstants.NUMBER_VALIDATE_REGEX)
     public String getPin() {
         return pin;
     }
